@@ -15,7 +15,7 @@
 }
 
 .dim:hover > * > * > * {
-  max-height: auto;
+  max-height: fit-content;
   overflow: visible;
 }
 
