@@ -1,6 +1,5 @@
 // Set defaults on install.
-
-chrome.storage.local.get(null, function (res) {
+chrome.storage.local.get(null, function(res) {
   if (res.initialized !== 'v0.5')
     chrome.storage.local.set({
       initialized: 'v0.5',
