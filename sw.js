@@ -5,7 +5,6 @@ chrome.storage.local.get(null, function(res) {
       initialized: 'v0.5',
       'feed-keywords': '',
       'gentle-mode': true,
-      'dark-mode': false,
       'hide-account-building': true,
       'hide-network-building': true,
       'hide-advertisements': true,

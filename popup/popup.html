@@ -48,11 +48,6 @@
         <label for="wide-mode">Wide mode (wider UI)</label>
       </div>
 
-      <div class="field has-text-centered">
-        <input id="dark-mode" class="switch is-rounded" type="checkbox" />
-        <label for="dark-mode">Dark mode (saves eyes)</label>
-      </div>
-
       <div class="content has-text-centered">
         <p>
           <strong>Link Off - LinkedIn Filter and Customizer</strong> by
@@ -142,11 +137,7 @@
     <div class="divider">Hide by keywords</div>
 
     <div class="field">
-      <input
-        id="hide-by-keywords"
-        placeholder="Add keywords"
-        class="tagify--outside"
-      />
+      <input id="hide-by-keywords" placeholder="Add keywords" class="tagify--outside" />
     </div>
 
     <div class="divider">Hide post by interactions</div>
@@ -275,7 +266,8 @@
     </div>
   </div>
 
-  <link href="../lib/tagify.css" rel="stylesheet" type="text/css" />
-  <script language="javascript" src="../lib/tagify.min.js"></script>
+  <script src="../node_modules/@yaireo/tagify/dist/tagify.js"></script>
+<!--  <script src="../node_modules/@yaireo/tagify/dist/tagify.polyfills.min.js"></script>-->
+  <link href="../node_modules/@yaireo/tagify/dist/tagify.css" rel="stylesheet" type="text/css" />
   <script language="javascript" src="popup.js"></script>
 </body>

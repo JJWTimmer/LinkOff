@@ -131,8 +131,10 @@ const feedKeywordList = [
 ]
 
 const feedKeywords = document.querySelector('input[id=hide-by-keywords]')
+
 const feedTagify = new Tagify(feedKeywords, {
   whitelist: feedKeywordList,
+  focusable: false,
   dropdown: {
     position: 'input',
     enabled: 0,
