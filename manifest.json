@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "LinkOff - Filter and Customizer for LinkedIn™",
   "short_name": "LinkOff",
-  "author": "Noah Jelich && JT",
+  "author": "Noah Jelich & Jasper Timmer",
   "version": "1.6.1",
   "description": "LinkOff cleans and customizes LinkedIn. It filters out the junk, leaving behind the posts and page elements that you want to see.",
   "icons": {

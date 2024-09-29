@@ -1,8 +1,8 @@
 // Set defaults on install.
 chrome.storage.local.get(null, function(res) {
-  if (res.initialized !== 'v0.5')
+  if (res.initialized !== 'v0.6')
     chrome.storage.local.set({
-      initialized: 'v0.5',
+      initialized: 'v0.6',
       'feed-keywords': '',
       'gentle-mode': true,
       'hide-account-building': true,
@@ -26,6 +26,7 @@ chrome.storage.local.get(null, function(res) {
       'hide-videos': false,
       'hide-whole-feed': false,
       'hide-liked': true,
+      'hide-suggested': true,
       'hide-other-reactions': false,
       'main-toggle': true,
       'sort-by-recent': true,
